@@ -30,6 +30,20 @@
     h1 {
       margin-top: 1rem;
     }
+    .video-container {
+      position:relative;
+      padding-bottom:56.25%;
+      padding-top:30px;
+      height:0;
+      overflow:hidden;
+    }
+
+    .video-container iframe, .video-container object, .video-container embed {
+      position:absolute;
+      top:0;
+      left:0;
+      width:50%;
+    }
   </style>
 </head>
 
@@ -67,10 +81,11 @@
       </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid text-center" style="background-image: url(https://images.unsplash.com/photo-1478207820126-2b0217b53ed1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=55f95b73312696b9c0ebf968dccf81a4&auto=format&fit=crop&w=500&q=60); background-size: 100%;"
+    <div class="jumbotron jumbotron-fluid text-center" style="background-image: url(https://sites.google.com/site/dtramphighlands/_/rsrc/1326768876604/config/5e5aa95457cc047d.jpg
+                                                              ?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=55f95b73312696b9c0ebf968dccf81a4&auto=format&fit=crop&w=500&q=60); background-size: 100%;"
       class="img-fluid rounded mx-auto d-block" alt="Banner" class="img-responsive">
       <h1 class="jumbotron-heading">VikingSheepArt Revival</h1>
-      <p class="lead text-muted">Services for small business and individuals: Revival of Hand-made, home-grown fiber arts farm products coming soon.
+      <p class="lead text-muted">Remnants of the hand-made, home-grown fiber arts fueled by my past farm products coming soon.
       </p>
       <div class="buttons"> <a href="#" class="btn btn-primary my-2">New Style Projects</a>&nbsp;
         <a href="https://sites.google.com/site/dtramphighlands/" class="btn btn-secondary my-2">Old Style Projects</a>
@@ -83,10 +98,11 @@
       <p class="strong">Hello Everybody!</p>
       <p>Please bare with me as I gradually progress into Full-Stack Web Development, and eventually get this site set-up for hand-made wool products/projects from the yarn I handspun from my own Shetland/Icelandic sheep...
       </p>
-      <p>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ps_xoutY7y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-      <p>Stay tuned as my web pages & projects are created, improved and updated. In the meantime, here is our shearer shearing one of our sheep several years ago. Thank you!
+      <div class="video-container">
+        <iframe src="https://www.youtube-nocookie.com/embed/Ps_xoutY7y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>As I have time, I will improve and update here. In the meantime, here is our shearer shearing one of our sheep several years ago. Thank you!
       </p>
+      </div>
       <div class="buttons "> 
         <p>
           <a class="typeform-share button" href="https://heartandhandstraining.typeform.com/to/SyXvsM" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#007BFF;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:5px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-footer=true data-submit-close-delay="5" target="_blank">Get Help
@@ -94,7 +110,7 @@
         </p> 
       </div>
     </div>
-</main>
+ </main>
 
   <footer class="text-muted ">
     <div class="container-fluid text-center ">
